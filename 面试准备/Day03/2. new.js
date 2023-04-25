@@ -3,5 +3,5 @@ Function.prototype.myNew = (fn, ...args) => {
   obj._proto_ = fn.prototype;
 
   const res = fn.apply(obj, args);
-  return typeof ret === "object" ? ret || obj : obj;
+  return typeof ret === "object" ? res || obj : obj;
 };
