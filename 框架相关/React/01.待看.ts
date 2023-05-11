@@ -9,3 +9,19 @@
  * 使用setState只会返回最后一次的结果， 因为它不是立刻就更新，而是先放在队列中，等时机成熟在执行批量更新。React18以后
  * 使用了createRoot api后 所有的 setState 都是异步批量执行的 react 18 使用ReacDOM.createRoot的全部都是自动批处理, 使用ReacDOM.render才是与之前的现象保持一致
  */
+
+/**
+ * 2. React18有哪些更新
+ *
+ *    1. setState自动批处理
+ *    2. 引入了新的rootAPI 支持 new concurrent renderer(并发模式的渲染)
+ *    3. 去掉了对IE的支持，
+ *    4. flushSync
+ *    5. 组件返回值更新
+ *    6. strict mode更新
+ *    7. Suspense不再需要fallback捕获
+ *    8. 支持useId
+ *    9. useSyncExternalStore
+ *   10. useInsertionEffect
+ *   11. Concurrent Mode
+ */
