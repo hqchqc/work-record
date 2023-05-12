@@ -25,3 +25,16 @@
  *   10. useInsertionEffect
  *   11. Concurrent Mode
  */
+
+/**
+ * 3. Redux工作原理
+ *
+ * redux是一个状态管理库， 使用场景：
+ *  - 跨层级组件数据共享与通信
+ *  - 一些需要持久化的全局数据，比如用户登录信息
+ *
+ * 使用单例模式实现
+ * store 一个全局状态管理对象
+ * Reducer 一个纯函数 根据旧state和props更新新state
+ * Action 改变状态的唯一方式是 dispatch action
+ */
