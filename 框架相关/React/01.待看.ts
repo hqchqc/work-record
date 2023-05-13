@@ -38,3 +38,7 @@
  * Reducer 一个纯函数 根据旧state和props更新新state
  * Action 改变状态的唯一方式是 dispatch action
  */
+
+/**
+ * 4. ~~~
+ */
